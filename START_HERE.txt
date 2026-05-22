@@ -1,0 +1,80 @@
+📋 QUICK START GUIDE
+═══════════════════════════════════════════════════════════════════════════
+
+Choose ONE method to start the platform:
+
+1️⃣  WINDOWS USERS - EASIEST WAY:
+    Double-click: launch.bat
+    
+2️⃣  PYTHON AUTOMATIC SETUP (All Platforms):
+    python setup_and_run.py
+    
+3️⃣  MANUAL STEP-BY-STEP:
+    pip install -r requirements.txt
+    python main.py
+
+═══════════════════════════════════════════════════════════════════════════
+
+✅ WHAT WAS FIXED:
+
+1. requirements.txt - Removed incorrect numbering (1., 2., 3., etc.)
+2. main.py line 312 - Fixed NoneType error in description display
+3. main.py line 480 - Fixed IndexError in hobby wizard
+4. Added 4 helper scripts for easy setup and testing
+
+═══════════════════════════════════════════════════════════════════════════
+
+📊 TEST YOUR SETUP:
+
+Before running the full platform, test individual components:
+    python test_all.py           # Full diagnostic test
+    python test_imports.py       # Quick import check
+
+═══════════════════════════════════════════════════════════════════════════
+
+📖 PLATFORM FEATURES:
+
+✓ Explore hobby database with filtering
+✓ Direct semantic search using AI embeddings
+✓ Full RAG pipeline for personalized recommendations
+✓ Interactive profile matching wizard
+✓ Register new hobby assets in real-time
+✓ Works offline in Simulation Mode
+✓ Live AI with Google Gemini 1.5 Flash (optional API key)
+
+═══════════════════════════════════════════════════════════════════════════
+
+💡 SAMPLE QUERIES TO TRY:
+
+For Photography:
+  - "candid neon streets at night"
+  - "galaxy and mountain trees in dark skies"
+  - "extreme close-up refraction details"
+
+For Calligraphy:
+  - "gothic metal nib script with gold leaf"
+  - "elegant wedding invitation cursive"
+  - "minimalist zen stroke with black sumi ink"
+
+═══════════════════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING:
+
+If you get import errors:
+    pip install --upgrade -r requirements.txt
+
+If ChromaDB fails:
+    Delete the chroma_storage/ folder
+    The platform will rebuild it automatically
+
+If semantic search is slow on first run:
+    This is normal - the embedding model is being downloaded (~120MB)
+    Subsequent runs will be much faster
+
+═══════════════════════════════════════════════════════════════════════════
+
+For detailed documentation, see:
+  - README.md          (Project overview and architecture)
+  - FIXES_APPLIED.md   (Technical fixes details)
+
+═══════════════════════════════════════════════════════════════════════════
