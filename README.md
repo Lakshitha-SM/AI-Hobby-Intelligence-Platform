@@ -3,6 +3,8 @@
 A production-level, industry-ready **Retrieval-Augmented Generation (RAG)** platform designed to analyze, search, and generate creative recommendations for **Calligraphy** and **Photography** hobbies. 
 
 The system leverages modern NLP architecture, utilizing local transformer embeddings via `SentenceTransformers` (`all-MiniLM-L6-v2`), high-performance local vector similarity indexing with `ChromaDB`, and dynamic prompt-context window optimization integrated with the state-of-the-art **Google Gemini 1.5 Flash** LLM.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/401f72a8-93c3-40ea-93f0-f38ffe0fa910" />
+
 
 ---
 
