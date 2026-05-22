@@ -8,6 +8,8 @@ The system leverages modern NLP architecture, utilizing local transformer embedd
 
 ---
 
+https://huggingface.co/spaces/laks1303/pen-and-pixel-ai
+
 ## 🏗️ System Architecture & Workflow
 
 The platform decouples data processing, local semantic vector mapping, search indices, and generative synthesis into a highly optimized, modular Python pipeline:
